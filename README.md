@@ -1,4 +1,5 @@
-# Project1
+#[Yodad](https://margosij.github.io/Project1/)
+***
 # Have you ever been at a party and not known how to socialize?
 
 # Does the thought of speaking to your coworkers give you anxiety?
@@ -17,4 +18,10 @@
 
 # GO FORTH AND BE FUNNY!!!!!
 
-[Yodad](https://margosij.github.io/Project1/)
+### Technologies Used
+- Jquery
+- Icanhazdadjoke API
+- Yodish Rapid API
+- Tilted Page Scroll
+- Bootstrap
+- Javascript
