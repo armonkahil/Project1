@@ -1,4 +1,4 @@
-#[Yodad](https://margosij.github.io/Project1/)
+# Yodad
 ***
 # Have you ever been at a party and not known how to socialize?
 
@@ -25,3 +25,4 @@
 - Tilted Page Scroll
 - Bootstrap
 - Javascript
+###[Demo](https://armonkahil.github.io/Yodad/)
