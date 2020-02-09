@@ -26,4 +26,4 @@
 - Bootstrap
 - Javascript
 
-### [Demo](https://armonkahil.github.io/Yodad/)
+### Hosted on [Github](https://armonkahil.github.io/Yodad/)
