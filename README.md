@@ -1,6 +1,8 @@
 # Yodad
 ***
-![Intro](assets/images/Yodad.gif)
+<p align="center">
+  <img src='assets/images/Yodad.gif'/>
+</p>
 
 ### Have you ever been at a party and not known how to socialize?
 ### Does the thought of speaking to your coworkers give you anxiety?
