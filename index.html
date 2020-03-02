@@ -1,24 +1,20 @@
 <!DOCTYPE html>
 <html lang="en-us">
-    <head>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    </head><meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
     <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <title>Jokes from Yoda</title>
-    <link rel="shortcut icon" type="image/jpg" href="assets/images/favicon.jpg">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>Yodad</title>
+    <link rel="shortcut icon" type="image/jpg" href="assets/images/yoda.png" />
     <!-- jquery cdn -->
     <script
       src="https://code.jquery.com/jquery-3.4.1.min.js"
       integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
       crossorigin="anonymous"
     ></script>
-    <linK rel="stylesheet" type="text/css" href="assets/css/reset.css" />
-    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet" />
     <!-- bootstrap cdn -->
     <link
       rel="stylesheet"
@@ -27,28 +23,33 @@
       crossorigin="anonymous"
     />
     <!-- tilted page css link -->
-    <link
-      href="assets/css/tiltedpage-scroll.css"
-      rel="stylesheet"
-      type="text/css"
-    />
+    <link href="assets/css/tiltedpage-scroll.css" rel="stylesheet" type="text/css" />
     <!-- CSS Link -->
+    <link href="assets/css/animate.min.css" rel="stylesheet" type="text/css" />
     <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
   </head>
 
   <body>
-    <div class = "intro"></div>
+    <div class="intro"></div>
     <div class="pos-f-t">
       <div class="collapse" id="navbarToggleExternalContent">
         <div class="bg-dark p-4">
-        <div class="card-body overflow-auto align-items-center" id="jokesGOHERE"></div>
+          <div class="card-body overflow-auto align-items-center" id="jokesGOHERE"></div>
         </div>
       </div>
       <nav class="navbar fixed-top navbar-dark bg-dark">
-        <a class="navbar-brand mr-auto" href="https://margosij.github.io/Project1/">Yodad</a>
+        <a class="navbar-brand mr-auto" href="https://armonkahil.github.io/Yodad/">Yodad</a>
         <form class="form-inline ml-auto">
-          <input class="form-control mr-sm-2" type="search" placeholder="Search Yodad Jokes..." aria-label="Search" id="category">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit"id="jokeInput">Search</button>
+          <input
+            class="form-control mr-sm-2"
+            type="search"
+            placeholder="Search Yodad Jokes..."
+            aria-label="Search"
+            id="category"
+          />
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit" data-target="#navbarToggleExternalContent" id="jokeInput">
+            Search
+          </button>
         </form>
         <button
           class="navbar-toggler ml-auto"
@@ -65,7 +66,7 @@
     </div>
     <!-- background video -->
     <video autoplay muted loop id="myVideo">
-      <source src="assets/video/Space.mp4" type="video/mp4">
+      <source src="assets/video/Space.mp4" type="video/mp4" />
     </video>
     <div class="main"></div>
     <script
@@ -83,9 +84,9 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
-    
+
     <script src="assets/javascript/jquery.tiltedpage-scroll.js"></script>
-    
+
     <script src="assets/javascript/app.js"></script>
   </body>
 </html>

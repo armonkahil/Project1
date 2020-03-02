@@ -519,3 +519,7 @@ pre code {
 .canHaz {
   cursor: pointer;
 }
+
+.bg-dark {
+  opacity: 0.8;
+}
