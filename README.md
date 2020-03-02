@@ -1,5 +1,4 @@
 # Yodad
-***
 <p align="center">
   <img src='assets/images/Yodad.gif'/>
 </p>
